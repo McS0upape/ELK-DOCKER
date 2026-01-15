@@ -1,0 +1,18 @@
+packetbeat.interfaces.device: any
+
+packetbeat.protocols:
+  - type: http
+    ports: [80, 8080, 8000, 5000, 8002, 9200]
+  - type: mysql
+    ports: [3306]
+  - type: redis
+    ports: [6379]
+
+output.elasticsearch:
+  hosts: ["http://elasticsearch:9200"]
+
+setup.kibana:
+  host: "kibana:5601"
+
+logging.level: info
+logging.to_files: false

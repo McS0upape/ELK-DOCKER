@@ -1,0 +1,14 @@
+- module: system
+  period: 10s
+  metricsets:
+    - cpu
+    - memory
+    - network
+    - process
+    - process_summary
+    - filesystem
+    - fsstat
+    - uptime
+  process.include_top_n:
+    by_cpu: 5
+    by_memory: 5

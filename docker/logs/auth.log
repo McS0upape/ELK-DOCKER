@@ -1,0 +1,3 @@
+Jan 14 22:45:44 siem-host sshd[2222]: Failed password for invalid user admin from 192.168.1.50 port 51122 ssh2
+Jan 14 22:45:44 siem-host sshd[2222]: Accepted password for root from 192.168.1.10 port 51123 ssh2
+Jan 14 22:45:44 siem-host sudo:   alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/bin/cat /etc/shadow

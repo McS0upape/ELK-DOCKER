@@ -1,0 +1,22 @@
+filebeat.inputs:
+  - type: filestream
+    id: local-logs
+    enabled: true
+    paths:
+      - /data/logs/*.log
+    fields:
+      log_origin: local
+    fields_under_root: true
+
+filebeat.config.modules:
+  path: ${path.config}/modules.d/*.yml
+  reload.enabled: false
+
+output.logstash:
+  hosts: ["logstash:5044"]
+
+setup.kibana:
+  host: "kibana:5601"
+
+logging.level: info
+logging.to_files: false

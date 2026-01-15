@@ -1,0 +1,11 @@
+server.name: kibana
+server.host: "0.0.0.0"
+server.port: 5601
+elasticsearch.hosts: ["http://elasticsearch:9200"]
+telemetry.enabled: false
+xpack.security.enabled: false
+status.allowAnonymous: true
+xpack.encryptedSavedObjects.encryptionKey: "dev-only-encryption-key-32chars-0000"
+xpack.reporting.encryptionKey: "dev-only-reporting-key-32chars-0000"
+xpack.security.encryptionKey: "dev-only-security-key-32chars-0000"
+xpack.reporting.kibanaServer.hostname: localhost

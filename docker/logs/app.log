@@ -1,0 +1,3 @@
+Jan 14 22:45:44 siem-host app[9000]: INFO Service started
+Jan 14 22:45:44 siem-host app[9000]: WARN Cache miss for key user:42
+Jan 14 22:45:44 siem-host app[9000]: ERROR Database connection failed
