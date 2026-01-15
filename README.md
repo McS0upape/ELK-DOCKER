@@ -56,6 +56,48 @@ cd ELK-DOCKER
 ```
 
 Les logs sont ecrits dans `docker/logs/` et sont lus par Logstash + Filebeat.
+Fichiers generes :
+- `docker/logs/apache_access.log`
+- `docker/logs/syslog.log`
+- `docker/logs/auth.log`
+- `docker/logs/app.log`
+- `docker/logs/logstash-test.log`
+
+Verification rapide dans Kibana :
+- Data Views (Index Patterns) : `logstash-*` et `filebeat-*`
+- Discover : filtre `log_type:apache` ou `log_type:syslog`
+
+Pour relancer une generation de test :
+```bash
+./scripts/generate_logs.sh
+```
+
+## Ajouter Winlogbeat (Windows)
+Objectif : envoyer les logs Windows vers Logstash (port 5044).
+
+1) Installer Winlogbeat (ZIP) :
+- https://www.elastic.co/downloads/beats/winlogbeat
+
+2) Modifier `winlogbeat.yml` (exemple minimal) :
+```yaml
+winlogbeat.event_logs:
+  - name: Application
+  - name: System
+  - name: Security
+
+output.logstash:
+  hosts: ["ELK_HOST:5044"]
+```
+
+Remplace `ELK_HOST` par l'IP de ta machine ELK (WSL2 ou VM).
+
+3) Lancer Winlogbeat (PowerShell admin) :
+```powershell
+cd C:\Program Files\Winlogbeat
+.\winlogbeat.exe -e
+```
+
+Verification : dans Kibana, creer `winlogbeat-*` et verifier les events.
 
 ## Packetbeat (optionnel)
 Packetbeat n'est pas lance par defaut. Pour l'activer :
