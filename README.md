@@ -127,6 +127,11 @@ Ces infos sont automatiquement mappees dans Elasticsearch :
 - `network.name`
 - `log_type`
 
+Utilisation dans Kibana :
+1) Data View : `logs-*`
+2) Discover : filtre `log_type:apache`, `log_type:syslog` ou `event.action:login_failed`
+3) Dashboard : ajoute des panels Lens avec `logs-*`
+
 Verification rapide dans Kibana :
 - Data Views : `logs-*` et `filebeat-*`
 - Discover : filtre `log_type:apache` ou `log_type:syslog`
