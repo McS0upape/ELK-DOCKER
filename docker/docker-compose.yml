@@ -78,6 +78,7 @@ services:
       - ./filebeat/filebeat.yml:/usr/share/filebeat/filebeat.yml:ro
       - ./filebeat/modules.d:/usr/share/filebeat/modules.d:ro
       - ./logs:/data/logs
+      - /var/log:/hostfs/var/log:ro
     networks:
       - elk
     mem_limit: 256m
@@ -96,6 +97,7 @@ services:
     volumes:
       - ./metricbeat/metricbeat.yml:/usr/share/metricbeat/metricbeat.yml:ro
       - ./metricbeat/modules.d:/usr/share/metricbeat/modules.d:ro
+      - /var/run/docker.sock:/var/run/docker.sock:ro
       - /proc:/hostfs/proc:ro
       - /sys/fs/cgroup:/hostfs/sys/fs/cgroup:ro
       - /:/hostfs:ro

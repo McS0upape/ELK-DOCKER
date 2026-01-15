@@ -1,3 +1,28 @@
 Jan 14 22:45:44 siem-host app[9000]: INFO Service started
 Jan 14 22:45:44 siem-host app[9000]: WARN Cache miss for key user:42
 Jan 14 22:45:44 siem-host app[9000]: ERROR Database connection failed
+Jan 15 09:21:23 siem-host app[9000]: INFO Service started
+Jan 15 09:21:23 siem-host app[9000]: WARN Cache miss for key user:42
+Jan 15 09:21:23 siem-host app[9000]: ERROR Database connection failed
+Jan 15 12:50:06 linux_bastion01 app[9000]: ERROR Unauthorized access to /etc/shadow detected
+Jan 15 12:51:44 linux_bastion01 app[9000]: ERROR Unauthorized access to /etc/shadow detected
+Jan 15 12:53:53 linux_bastion01 app[9000]: ERROR Unauthorized access to /etc/shadow detected
+Jan 15 12:56:31 linux_bastion01 app[9000]: ERROR Unauthorized access to /etc/shadow detected
+Jan 15 12:57:20 linux_bastion01 app[9000]: ERROR Unauthorized access to /etc/shadow detected
+Jan 15 12:58:53 linux_bastion01 app[9000]: ERROR Unauthorized access to /etc/shadow detected
+Jan 15 13:00:30 linux_bastion01 app[9000]: ERROR Unauthorized access to /etc/shadow detected
+Jan 15 14:00:22 linux_bastion01 app[9000]: ERROR Unauthorized access to /etc/shadow detected
+Jan 15 14:15:29 linux_bastion01 app[9000]: ERROR Unauthorized access to /etc/shadow detected
+Jan 15 14:17:23 linux_bastion01 app[9000]: ERROR Unauthorized access to /etc/shadow detected
+Jan 15 14:50:04 linux_bastion01 app[9000]: ERROR Unauthorized access to /etc/shadow detected
+Jan 15 15:38:46 linux_bastion01 app[9000]: ERROR Unauthorized access to /etc/shadow detected
+Jan 15 15:38:51 linux_bastion01 app[9000]: ERROR Unauthorized access to /etc/shadow detected
+Jan 15 15:38:56 linux_bastion01 app[9000]: ERROR Unauthorized access to /etc/shadow detected
+Jan 15 15:50:06 linux_bastion01 app[9000]: ERROR Unauthorized access to /etc/shadow detected
+Jan 15 15:50:06 linux_bastion01 app[9000]: ERROR Unauthorized access to /etc/shadow detected
+Jan 15 16:00:01 linux_bastion01 app[9000]: ERROR Unauthorized access to /etc/shadow detected
+Jan 15 16:10:01 linux_bastion01 app[9000]: ERROR Unauthorized access to /etc/shadow detected
+Jan 15 16:20:01 linux_bastion01 app[9000]: ERROR Unauthorized access to /etc/shadow detected
+Jan 15 16:30:01 linux_bastion01 app[9000]: ERROR Unauthorized access to /etc/shadow detected
+Jan 15 16:40:01 linux_bastion01 app[9000]: ERROR Unauthorized access to /etc/shadow detected
+Jan 15 16:50:01 linux_bastion01 app[9000]: ERROR Unauthorized access to /etc/shadow detected

@@ -1,11 +1,22 @@
 filebeat.inputs:
-  - type: filestream
+  - type: log
     id: local-logs
     enabled: true
     paths:
       - /data/logs/*.log
     fields:
       log_origin: local
+    fields_under_root: true
+    ignore_older: 0
+    scan_frequency: 5s
+  - type: filestream
+    id: wsl-varlog
+    enabled: true
+    paths:
+      - /hostfs/var/log/auth.log
+      - /hostfs/var/log/syslog
+    fields:
+      log_origin: wsl
     fields_under_root: true
 
 filebeat.config.modules:

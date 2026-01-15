@@ -1,3 +1,234 @@
 Jan 14 22:45:44 siem-host sshd[2222]: Failed password for invalid user admin from 192.168.1.50 port 51122 ssh2
 Jan 14 22:45:44 siem-host sshd[2222]: Accepted password for root from 192.168.1.10 port 51123 ssh2
 Jan 14 22:45:44 siem-host sudo:   alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/bin/cat /etc/shadow
+Jan 15 09:21:23 siem-host sshd[2222]: Failed password for invalid user admin from 192.168.1.50 port 51122 ssh2
+Jan 15 09:21:23 siem-host sshd[2222]: Accepted password for root from 192.168.1.10 port 51123 ssh2
+Jan 15 09:21:23 siem-host sudo:   alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/bin/cat /etc/shadow
+Jan 15 12:50:06 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50001 ssh2
+Jan 15 12:50:06 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50002 ssh2
+Jan 15 12:50:06 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50003 ssh2
+Jan 15 12:50:06 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50004 ssh2
+Jan 15 12:50:06 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50005 ssh2
+Jan 15 12:50:06 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50006 ssh2
+Jan 15 12:50:06 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50007 ssh2
+Jan 15 12:50:06 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50008 ssh2
+Jan 15 12:50:06 linux_bastion01 sshd[1234]: Accepted password for admin from 203.0.113.99 port 51000 ssh2
+Jan 15 12:50:06 linux_bastion01 sudo:   admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/bin/cat /etc/shadow
+Jan 15 12:51:44 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50001 ssh2
+Jan 15 12:51:44 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50002 ssh2
+Jan 15 12:51:44 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50003 ssh2
+Jan 15 12:51:44 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50004 ssh2
+Jan 15 12:51:44 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50005 ssh2
+Jan 15 12:51:44 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50006 ssh2
+Jan 15 12:51:44 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50007 ssh2
+Jan 15 12:51:44 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50008 ssh2
+Jan 15 12:51:44 linux_bastion01 sshd[1234]: Accepted password for admin from 203.0.113.99 port 51000 ssh2
+Jan 15 12:51:44 linux_bastion01 sudo:   admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/bin/cat /etc/shadow
+Jan 15 12:53:53 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50001 ssh2
+Jan 15 12:53:53 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50002 ssh2
+Jan 15 12:53:53 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50003 ssh2
+Jan 15 12:53:53 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50004 ssh2
+Jan 15 12:53:53 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50005 ssh2
+Jan 15 12:53:53 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50006 ssh2
+Jan 15 12:53:53 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50007 ssh2
+Jan 15 12:53:53 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50008 ssh2
+Jan 15 12:53:53 linux_bastion01 sshd[1234]: Accepted password for admin from 203.0.113.99 port 51000 ssh2
+Jan 15 12:53:53 linux_bastion01 sudo:   admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/bin/cat /etc/shadow
+Jan 15 12:56:31 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50001 ssh2
+Jan 15 12:56:31 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50002 ssh2
+Jan 15 12:56:31 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50003 ssh2
+Jan 15 12:56:31 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50004 ssh2
+Jan 15 12:56:31 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50005 ssh2
+Jan 15 12:56:31 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50006 ssh2
+Jan 15 12:56:31 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50007 ssh2
+Jan 15 12:56:31 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50008 ssh2
+Jan 15 12:56:31 linux_bastion01 sshd[1234]: Accepted password for admin from 203.0.113.99 port 51000 ssh2
+Jan 15 12:56:31 linux_bastion01 sudo:   admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/bin/cat /etc/shadow
+Jan 15 12:57:20 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50001 ssh2
+Jan 15 12:57:20 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50002 ssh2
+Jan 15 12:57:20 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50003 ssh2
+Jan 15 12:57:20 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50004 ssh2
+Jan 15 12:57:20 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50005 ssh2
+Jan 15 12:57:20 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50006 ssh2
+Jan 15 12:57:20 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50007 ssh2
+Jan 15 12:57:20 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50008 ssh2
+Jan 15 12:57:20 linux_bastion01 sshd[1234]: Accepted password for admin from 203.0.113.99 port 51000 ssh2
+Jan 15 12:57:20 linux_bastion01 sudo:   admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/bin/cat /etc/shadow
+Jan 15 12:58:53 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50001 ssh2
+Jan 15 12:58:53 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50002 ssh2
+Jan 15 12:58:53 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50003 ssh2
+Jan 15 12:58:53 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50004 ssh2
+Jan 15 12:58:53 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50005 ssh2
+Jan 15 12:58:53 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50006 ssh2
+Jan 15 12:58:53 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50007 ssh2
+Jan 15 12:58:53 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50008 ssh2
+Jan 15 12:58:53 linux_bastion01 sshd[1234]: Accepted password for admin from 203.0.113.99 port 51000 ssh2
+Jan 15 12:58:53 linux_bastion01 sudo:   admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/bin/cat /etc/shadow
+Jan 15 13:00:30 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50001 ssh2
+Jan 15 13:00:30 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50002 ssh2
+Jan 15 13:00:30 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50003 ssh2
+Jan 15 13:00:30 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50004 ssh2
+Jan 15 13:00:30 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50005 ssh2
+Jan 15 13:00:30 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50006 ssh2
+Jan 15 13:00:30 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50007 ssh2
+Jan 15 13:00:30 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50008 ssh2
+Jan 15 13:00:30 linux_bastion01 sshd[1234]: Accepted password for admin from 203.0.113.99 port 51000 ssh2
+Jan 15 13:00:30 linux_bastion01 sudo:   admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/bin/cat /etc/shadow
+Jan 15 14:00:22 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50001 ssh2
+Jan 15 14:00:22 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50002 ssh2
+Jan 15 14:00:22 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50003 ssh2
+Jan 15 14:00:22 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50004 ssh2
+Jan 15 14:00:22 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50005 ssh2
+Jan 15 14:00:22 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50006 ssh2
+Jan 15 14:00:22 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50007 ssh2
+Jan 15 14:00:22 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50008 ssh2
+Jan 15 14:00:22 linux_bastion01 sshd[1234]: Accepted password for admin from 203.0.113.99 port 51000 ssh2
+Jan 15 14:00:22 linux_bastion01 sudo:   admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/bin/cat /etc/shadow
+Jan 15 14:08:50 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50111 ssh2
+Jan 15 14:15:29 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50001 ssh2
+Jan 15 14:15:29 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50002 ssh2
+Jan 15 14:15:29 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50003 ssh2
+Jan 15 14:15:29 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50004 ssh2
+Jan 15 14:15:29 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50005 ssh2
+Jan 15 14:15:29 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50006 ssh2
+Jan 15 14:15:29 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50007 ssh2
+Jan 15 14:15:29 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50008 ssh2
+Jan 15 14:15:29 linux_bastion01 sshd[1234]: Accepted password for admin from 203.0.113.99 port 51000 ssh2
+Jan 15 14:15:29 linux_bastion01 sudo:   admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/bin/cat /etc/shadow
+Jan 15 14:17:23 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50001 ssh2
+Jan 15 14:17:23 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50002 ssh2
+Jan 15 14:17:23 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50003 ssh2
+Jan 15 14:17:23 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50004 ssh2
+Jan 15 14:17:23 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50005 ssh2
+Jan 15 14:17:23 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50006 ssh2
+Jan 15 14:17:23 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50007 ssh2
+Jan 15 14:17:23 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50008 ssh2
+Jan 15 14:17:23 linux_bastion01 sshd[1234]: Accepted password for admin from 203.0.113.99 port 51000 ssh2
+Jan 15 14:17:23 linux_bastion01 sudo:   admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/bin/cat /etc/shadow
+Jan 15 14:50:04 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50001 ssh2
+Jan 15 14:50:04 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50002 ssh2
+Jan 15 14:50:04 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50003 ssh2
+Jan 15 14:50:04 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50004 ssh2
+Jan 15 14:50:04 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50005 ssh2
+Jan 15 14:50:04 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50006 ssh2
+Jan 15 14:50:04 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50007 ssh2
+Jan 15 14:50:04 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50008 ssh2
+Jan 15 14:50:04 linux_bastion01 sshd[1234]: Accepted password for admin from 203.0.113.99 port 51000 ssh2
+Jan 15 14:50:04 linux_bastion01 sudo:   admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/bin/cat /etc/shadow
+Jan 15 14:50:58 linux_bastion01 sshd[9999]: Failed password for invalid user testuser from 203.0.113.77 port 55555 ssh2
+Jan 15 14:53:30 linux_bastion01 sshd[9999]: Failed password for invalid user testuser from 203.0.113.77 port 55556 ssh2
+Jan 15 14:57:22 linux_bastion01 sshd[7777]: Failed password for invalid user testuser from 203.0.113.77 port 55557 ssh2
+Jan 15 15:01:01 linux_bastion01 sshd[8888]: Failed password for invalid user testuser from 203.0.113.77 port 55558 ssh2
+Jan 15 15:02:26 linux_bastion01 sshd[9999]: Failed password for invalid user testuser from 203.0.113.77 port 55559 ssh2
+Jan 15 15:04:43 linux_bastion01 sshd[10001]: Failed password for invalid user bruteuser from 203.0.113.88 port 55600 ssh2 BRUTEFORCE-TEST
+Jan 15 15:08:07 linux_bastion01 sshd[10002]: Failed password for invalid user bruteuser from 203.0.113.88 port 55601 ssh2
+Jan 15 15:38:46 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50001 ssh2
+Jan 15 15:38:46 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50002 ssh2
+Jan 15 15:38:46 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50003 ssh2
+Jan 15 15:38:46 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50004 ssh2
+Jan 15 15:38:46 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50005 ssh2
+Jan 15 15:38:46 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50006 ssh2
+Jan 15 15:38:46 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50007 ssh2
+Jan 15 15:38:46 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50008 ssh2
+Jan 15 15:38:46 linux_bastion01 sshd[1234]: Accepted password for admin from 203.0.113.99 port 51000 ssh2
+Jan 15 15:38:46 linux_bastion01 sudo:   admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/bin/cat /etc/shadow
+Jan 15 15:38:51 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50001 ssh2
+Jan 15 15:38:51 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50002 ssh2
+Jan 15 15:38:51 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50003 ssh2
+Jan 15 15:38:51 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50004 ssh2
+Jan 15 15:38:51 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50005 ssh2
+Jan 15 15:38:51 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50006 ssh2
+Jan 15 15:38:51 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50007 ssh2
+Jan 15 15:38:51 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50008 ssh2
+Jan 15 15:38:51 linux_bastion01 sshd[1234]: Accepted password for admin from 203.0.113.99 port 51000 ssh2
+Jan 15 15:38:51 linux_bastion01 sudo:   admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/bin/cat /etc/shadow
+Jan 15 15:38:56 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50001 ssh2
+Jan 15 15:38:56 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50002 ssh2
+Jan 15 15:38:56 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50003 ssh2
+Jan 15 15:38:56 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50004 ssh2
+Jan 15 15:38:56 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50005 ssh2
+Jan 15 15:38:56 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50006 ssh2
+Jan 15 15:38:56 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50007 ssh2
+Jan 15 15:38:56 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50008 ssh2
+Jan 15 15:38:56 linux_bastion01 sshd[1234]: Accepted password for admin from 203.0.113.99 port 51000 ssh2
+Jan 15 15:38:56 linux_bastion01 sudo:   admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/bin/cat /etc/shadow
+Jan 15 15:50:06 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50001 ssh2
+Jan 15 15:50:06 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50002 ssh2
+Jan 15 15:50:06 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50003 ssh2
+Jan 15 15:50:06 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50004 ssh2
+Jan 15 15:50:06 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50005 ssh2
+Jan 15 15:50:06 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50006 ssh2
+Jan 15 15:50:06 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50007 ssh2
+Jan 15 15:50:06 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50008 ssh2
+Jan 15 15:50:06 linux_bastion01 sshd[1234]: Accepted password for admin from 203.0.113.99 port 51000 ssh2
+Jan 15 15:50:06 linux_bastion01 sudo:   admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/bin/cat /etc/shadow
+Jan 15 15:50:06 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50001 ssh2
+Jan 15 15:50:06 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50002 ssh2
+Jan 15 15:50:06 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50003 ssh2
+Jan 15 15:50:06 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50004 ssh2
+Jan 15 15:50:06 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50005 ssh2
+Jan 15 15:50:06 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50006 ssh2
+Jan 15 15:50:06 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50007 ssh2
+Jan 15 15:50:06 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50008 ssh2
+Jan 15 15:50:06 linux_bastion01 sshd[1234]: Accepted password for admin from 203.0.113.99 port 51000 ssh2
+Jan 15 15:50:06 linux_bastion01 sudo:   admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/bin/cat /etc/shadow
+Jan 15 16:00:01 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50001 ssh2
+Jan 15 16:00:01 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50002 ssh2
+Jan 15 16:00:01 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50003 ssh2
+Jan 15 16:00:01 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50004 ssh2
+Jan 15 16:00:01 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50005 ssh2
+Jan 15 16:00:01 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50006 ssh2
+Jan 15 16:00:01 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50007 ssh2
+Jan 15 16:00:01 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50008 ssh2
+Jan 15 16:00:01 linux_bastion01 sshd[1234]: Accepted password for admin from 203.0.113.99 port 51000 ssh2
+Jan 15 16:00:01 linux_bastion01 sudo:   admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/bin/cat /etc/shadow
+Jan 15 16:10:01 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50001 ssh2
+Jan 15 16:10:01 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50002 ssh2
+Jan 15 16:10:01 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50003 ssh2
+Jan 15 16:10:01 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50004 ssh2
+Jan 15 16:10:01 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50005 ssh2
+Jan 15 16:10:01 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50006 ssh2
+Jan 15 16:10:01 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50007 ssh2
+Jan 15 16:10:01 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50008 ssh2
+Jan 15 16:10:01 linux_bastion01 sshd[1234]: Accepted password for admin from 203.0.113.99 port 51000 ssh2
+Jan 15 16:10:01 linux_bastion01 sudo:   admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/bin/cat /etc/shadow
+Jan 15 16:20:01 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50001 ssh2
+Jan 15 16:20:01 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50002 ssh2
+Jan 15 16:20:01 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50003 ssh2
+Jan 15 16:20:01 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50004 ssh2
+Jan 15 16:20:01 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50005 ssh2
+Jan 15 16:20:01 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50006 ssh2
+Jan 15 16:20:01 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50007 ssh2
+Jan 15 16:20:01 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50008 ssh2
+Jan 15 16:20:01 linux_bastion01 sshd[1234]: Accepted password for admin from 203.0.113.99 port 51000 ssh2
+Jan 15 16:20:01 linux_bastion01 sudo:   admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/bin/cat /etc/shadow
+Jan 15 16:30:01 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50001 ssh2
+Jan 15 16:30:01 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50002 ssh2
+Jan 15 16:30:01 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50003 ssh2
+Jan 15 16:30:01 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50004 ssh2
+Jan 15 16:30:01 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50005 ssh2
+Jan 15 16:30:01 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50006 ssh2
+Jan 15 16:30:01 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50007 ssh2
+Jan 15 16:30:01 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50008 ssh2
+Jan 15 16:30:01 linux_bastion01 sshd[1234]: Accepted password for admin from 203.0.113.99 port 51000 ssh2
+Jan 15 16:30:01 linux_bastion01 sudo:   admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/bin/cat /etc/shadow
+Jan 15 16:40:01 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50001 ssh2
+Jan 15 16:40:01 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50002 ssh2
+Jan 15 16:40:01 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50003 ssh2
+Jan 15 16:40:01 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50004 ssh2
+Jan 15 16:40:01 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50005 ssh2
+Jan 15 16:40:01 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50006 ssh2
+Jan 15 16:40:01 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50007 ssh2
+Jan 15 16:40:01 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50008 ssh2
+Jan 15 16:40:01 linux_bastion01 sshd[1234]: Accepted password for admin from 203.0.113.99 port 51000 ssh2
+Jan 15 16:40:01 linux_bastion01 sudo:   admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/bin/cat /etc/shadow
+Jan 15 16:50:01 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50001 ssh2
+Jan 15 16:50:01 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50002 ssh2
+Jan 15 16:50:01 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50003 ssh2
+Jan 15 16:50:01 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50004 ssh2
+Jan 15 16:50:01 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50005 ssh2
+Jan 15 16:50:01 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50006 ssh2
+Jan 15 16:50:01 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50007 ssh2
+Jan 15 16:50:01 linux_bastion01 sshd[1234]: Failed password for invalid user admin from 203.0.113.99 port 50008 ssh2
+Jan 15 16:50:01 linux_bastion01 sshd[1234]: Accepted password for admin from 203.0.113.99 port 51000 ssh2
+Jan 15 16:50:01 linux_bastion01 sudo:   admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/bin/cat /etc/shadow

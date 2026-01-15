@@ -1,3 +1,6 @@
 Jan 14 22:45:44 siem-host systemd[1]: Started Session 42 of user root.
 Jan 14 22:45:44 siem-host kernel: [ 1234.567890] eth0: link up
 Jan 14 22:45:44 siem-host CRON[12345]: (root) CMD (/usr/local/bin/backup.sh)
+Jan 15 09:21:23 siem-host systemd[1]: Started Session 42 of user root.
+Jan 15 09:21:23 siem-host kernel: [ 1234.567890] eth0: link up
+Jan 15 09:21:23 siem-host CRON[12345]: (root) CMD (/usr/local/bin/backup.sh)

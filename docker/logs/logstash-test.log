@@ -1,1 +1,4 @@
 Jan 14 22:45:44 siem-host logstash-test: Hello from Logstash test file
+Jan 15 09:21:23 siem-host logstash-test: Hello from Logstash test file
+Jan 15 14:59:01 siem-host logstash-test: NEW-LINE-1768485541
+Jan 15 15:04:23 siem-host logstash-test: NEW-LINE-1768485863
